@@ -2,7 +2,7 @@
 
 Headless browser automation server for AI agents. Run locally or deploy to any cloud provider.
 
-## Quick Start for Agents
+## Quick Start for Agentss
 
 ```bash
 # Install and start
