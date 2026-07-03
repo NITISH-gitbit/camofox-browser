@@ -71,7 +71,7 @@ COPY scripts/ ./scripts/
 RUN sh scripts/install-plugin-deps.sh
 
 ENV NODE_ENV=production
-ENV CAMOFOX_PORT=9377
+# ENV CAMOFOX_PORT=9377
 
 EXPOSE 9377
 
