@@ -64,4 +64,4 @@ jobs:
             --min-instances=0 \
             --max-instances=2 \
             --timeout=300 \
-            --update-env-vars="PORT=8080,CAMOFOX_ACCESS_KEY=${{ secrets.CAMOFOX_ACCESS_KEY }},CAMOFOX_API_KEY=${{ secrets.CAMOFOX_API_KEY }},CAMOFOX_CRASH_REPORT_ENABLED=false"
+            --update-env-vars="CAMOFOX_ACCESS_KEY=${{ secrets.CAMOFOX_ACCESS_KEY }},CAMOFOX_API_KEY=${{ secrets.CAMOFOX_API_KEY }},CAMOFOX_CRASH_REPORT_ENABLED=false"
